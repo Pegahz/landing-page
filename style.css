@@ -87,12 +87,14 @@ a {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 50px;
 }
 
 .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
 }
 
 .box {
@@ -100,11 +102,36 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #606060;
 }
 
 .box-border {
     height: 150px;
     width: 150px;
+    flex: auto;
     border: #3882f6 solid 4px;
     border-radius: 15px;
+    margin-bottom: 15px;
 }
+
+.third {
+    background-color: #e5e7eb;
+    padding: 150px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quoted {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    color: #222;
+}
+
