@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.first {
+.first, .footer {
     background-color: #1f2937;
 }
 
@@ -138,7 +138,7 @@ a {
 .blue-box {
     background-color: #3882f6;
     color: #f9f9f9;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 150px;
     padding: 50px 100px;
     display: flex;
@@ -160,4 +160,12 @@ a {
 
 .second-p {
     font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #f9faf8;
 }
