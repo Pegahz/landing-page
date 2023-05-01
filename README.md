@@ -1,1 +1,2 @@
 # landing-page
+This project demonstrates basic skills in CSS and flexbox including changig color, font and size of the text, changing border, padding nd margin of of elements, changing the layout with flexbox, etc.
